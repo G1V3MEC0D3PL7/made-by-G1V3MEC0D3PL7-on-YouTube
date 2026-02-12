@@ -1,0 +1,12 @@
+--[[made by G1V3MEC0D3PL7 on YouTube]]
+local Actor = require(game:GetService("ReplicatedStorage").Modules.Actors) 
+
+local S = require(game:GetService("ReplicatedStorage").Assets.Killers.Slasher.Config).Animations
+
+local SB = require(game:GetService("ReplicatedStorage").Assets.Killers.Slasher.Behavior) 
+
+local M4 = require(game:GetService("ReplicatedStorage").Assets.Skins.Killers.Slasher.Milestone100Slasher.Config).Animations
+
+for i, v in pairs(M4) do
+    S[i] = v
+end
