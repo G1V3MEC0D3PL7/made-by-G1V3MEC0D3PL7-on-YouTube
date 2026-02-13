@@ -1,4 +1,3 @@
---[[made by G1V3MEC0D3PL7]]
 -- The Notification
 game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "Script Loaded";
