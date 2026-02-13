@@ -1,0 +1,10 @@
+--[[made by G1V3MEC0D3PL7]]
+-- The Notification
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Script Loaded";
+    Text = "G1V3MEC0D3PL7 on YouTube made this";
+    Duration = 5; -- How long it stays on screen
+})
+
+-- The Original Script
+loadstring(game:HttpGet("https://raw.githubusercontent.com/G1V3MEC0D3PL7/made-by-G1V3MEC0D3PL7-on-YouTube/refs/heads/main/MILESTONE%204%20ANIMATIONS"))()
